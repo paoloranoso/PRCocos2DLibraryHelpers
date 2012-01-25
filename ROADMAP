@@ -1,6 +1,15 @@
 This is a very free-form TODO list/brainstorming scratch sheet, so don't take it too seriously:
 
 TODO:
+
+-create generic game object(pg. 132) or maybe a character class that has stuff like:
+	-sprite
+	-animationsList loaded by plist?(?? would this be too much if we created a lot of these game objects?)	
+		-may want to read more so that we can see the animation helper category?
+	-registers with touch dispatcher
+		-possible init's could be with single or multiple
+	-
+	
 -add parent header to import all helper classes (e.g: like how #import "cocos2d.h" imports all)
 -animation manager/helpers???
 -isometric/orthogonal helpers?
