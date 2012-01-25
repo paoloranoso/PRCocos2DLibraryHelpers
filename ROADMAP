@@ -1,0 +1,11 @@
+This is a very free-form TODO list/brainstorming scratch sheet, so don't take it too seriously:
+
+TODO:
+-add parent header to import all helper classes (e.g: like how #import "cocos2d.h" imports all)
+-animation manager/helpers???
+-isometric/orthogonal helpers?
+-try thinking about stuff you end up typing a lot and make convenience classes out of those
+-maybe add non-cocos stuff in here that I usually use?  e.g: MckHelpers/MCKHttpClient/MckConfig???
+-blocks/notification stuff?
+
+
