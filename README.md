@@ -18,7 +18,8 @@ composition (e.g: has-a relationship) over inheritance, which is why I am NOT ma
 
 Installation
 ------------
-Simply drag and drop the whole folder into your cocos2d-iphone project, and #import "PRCocos2DLibraryHelpers" wherever need.
+Simply drag and drop the whole folder into your cocos2d-iphone project, and #import "PRCocos2DLibraryHelpers" wherever needed.
+If you're lazy like me, #import it in your precompiled header(.pch) file(s).
 
 
 Documentation
