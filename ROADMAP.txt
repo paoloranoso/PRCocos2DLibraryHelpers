@@ -1,0 +1,16 @@
+This is a very free-form TODO/notes/brainstorming scratch sheet, so don't take it too seriously:
+
+-I just refreshed myself on composition vs inheritance for game dev, and have decided to make
+more helper/convenience stuff that is much more modular.  I don't think making a generic PRGameObject.h
+is necessary, as we can just inherit from existing cocos stuff like CCSprite.
+
+For example:
+-'Viking' class can inherit from CCSprite, and HAS
+	-animations (vars can be CCAnimations and we use PRAnimationHelper to easily load these)
+	-touch input handling (maybe don't even need a helper class...just conform to protocol and implement delegates)
+	-...etc
+	
+In other words, MAIN GOAL FOR NOW IS TO MAKE HELPER THINGS THAT AID IN COMPOSITION instead of creating 
+prefabricated things like GameObject, etc.		
+
+

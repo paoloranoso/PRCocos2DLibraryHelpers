@@ -1,15 +1,13 @@
 //
-//  PRTouchManager.h
+//  PRTouchHelper.h - Helper/convenience methods to deal with handling touch input much easily
 //
 //  Created by Paolo Ranoso on 1/25/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Paolo Ranoso. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "cocos2d.h"
 
-@class CCNode;
-
-@interface PRTouchManager : NSObject{
+@interface PRTouchHelper : NSObject{
     
 }
 
