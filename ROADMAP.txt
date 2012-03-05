@@ -9,8 +9,13 @@ For example:
 	-animations (vars can be CCAnimations and we use PRAnimationHelper to easily load these)
 	-touch input handling (maybe don't even need a helper class...just conform to protocol and implement delegates)
 	-...etc
-	
-In other words, MAIN GOAL FOR NOW IS TO MAKE HELPER THINGS THAT AID IN COMPOSITION instead of creating 
-prefabricated things like GameObject, etc.		
 
+In other words, MAIN GOAL FOR NOW IS TO MAKE HELPER THINGS THAT AID IN COMPOSITION instead of creating
+prefabricated things like GameObject, etc.
 
+------------
+
+IDEAS:
+-collision helper?? (e.g: bounding box method vs distance method?)
+-input helper?? --> not sure if there is can be easily modularized, as we'd usually make an input layer...
+-game data singleton?? --> I haven't really made any big/complex cocos2d projects, but I imagine this would be nice
